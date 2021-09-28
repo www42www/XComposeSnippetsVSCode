@@ -1,0 +1,146 @@
+{
+	"<Multi_key> <foo> \"bar\" : # baz": {
+		"prefix": "m",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> ${2: }: \"${3:$TM_SELECTED_TEXT}\"\t# $4",
+			"$0"
+		],
+		"description": "Compose sequence"
+	},
+	"<Multi_key> <Multi_key> <foo> \"bar\" : # baz": {
+		"prefix": "mm",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> ${2: }: \"${3:$TM_SELECTED_TEXT}\"\t# $4",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s"
+	},
+	"<Multi_key> <1> <2> \"bar\" : # baz": {
+		"prefix": "m2",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> ${3: }: \"${4:$TM_SELECTED_TEXT}\"\t# $5",
+			"$0"
+		],
+		"description": "Compose sequence of length 2"
+	},
+	"<Multi_key> <Multi_key> <1> <2> \"bar\" : # baz": {
+		"prefix": "mm2",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> ${3: }: \"${4:$TM_SELECTED_TEXT}\"\t# $5",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 2"
+	},
+	"<Multi_key> <1> <2> <3> \"bar\" : # baz": {
+		"prefix": "m3",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> ${4: }: \"${5:$TM_SELECTED_TEXT}\"\t# $6",
+			"$0"
+		],
+		"description": "Compose sequence of length 3"
+	},
+	"<Multi> <Multi> <1> <2> <3> \"bar\" : # baz": {
+		"prefix": "mm3",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> ${4: }: \"${5:$TM_SELECTED_TEXT}\"\t# $6",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 3"
+	},
+	"<Multi_key> <1> <2> <3> <4> \"bar\" : # baz": {
+		"prefix": "m4",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> ${5: }: \"${6:$TM_SELECTED_TEXT}\"\t# $7",
+			"$0"
+		],
+		"description": "Compose sequence of length 4"
+	},
+	"<Multi> <Multi> <1> ... <4> \"bar\" : # baz": {
+		"prefix": "mm4",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> ${5: }: \"${6:$TM_SELECTED_TEXT}\"\t# $7",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 4"
+	},
+	"<Multi> <1> <2> ... <5> \"bar\" : # baz": {
+		"prefix": "m5",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> ${6: }: \"${7:$TM_SELECTED_TEXT}\"\t# $8",
+			"$0"
+		],
+		"description": "Compose sequence of length 5"
+	},
+	"<Multi> <Multi> <1> ... <5> \"bar\" : # baz": {
+		"prefix": "mm5",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> ${6: }: \"${7:$TM_SELECTED_TEXT}\"\t# $8",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 5"
+	},
+	"<Multi> <1> <2> ... <6> \"bar\" : # baz": {
+		"prefix": "m6",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> ${7: }: \"${8:$TM_SELECTED_TEXT}\"\t# $9",
+			"$0"
+		],
+		"description": "Compose sequence of length 6"
+	},
+	"<Multi> <Multi> <1> ... <6> \"bar\" : # baz": {
+		"prefix": "mm6",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> ${7: }: \"${8:$TM_SELECTED_TEXT}\"\t# $9",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 6"
+	},
+	"<Multi> <1> <2> ... <7> \"bar\" : # baz": {
+		"prefix": "m7",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> <${7:$TM_SELECTED_TEXT}> ${8: }: \"${9:$TM_SELECTED_TEXT}\"\t# $10",
+			"$0"
+		],
+		"description": "Compose sequence of length 7"
+	},
+	"<Multi> <Multi> <1> ... <7> \"bar\" : # baz": {
+		"prefix": "mm7",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> <${7:$TM_SELECTED_TEXT}> ${8: }: \"${9:$TM_SELECTED_TEXT}\"\t# $10",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 7"
+	},
+	"<Multi> <1> <2> ... <8> \"bar\" : # baz": {
+		"prefix": "m8",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> <${7:$TM_SELECTED_TEXT}> <${8:$TM_SELECTED_TEXT}> ${9: }: \"${10:$TM_SELECTED_TEXT}\"\t# $11",
+			"$0"
+		],
+		"description": "Compose sequence of length 8"
+	},
+	"<Multi> <Multi> <1> ... <8> \"bar\" : # baz": {
+		"prefix": "mm8",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> <${7:$TM_SELECTED_TEXT}> <${8:$TM_SELECTED_TEXT}> ${9: }: \"${10:$TM_SELECTED_TEXT}\"\t# $11",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 8"
+	},
+	"<Multi> <1> <2> ... <9> \"bar\" : # baz": {
+		"prefix": "m9",
+		"body": [
+			"<Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> <${7:$TM_SELECTED_TEXT}> <${8:$TM_SELECTED_TEXT}> <${9:$TM_SELECTED_TEXT}> ${10: }: \"${11:$TM_SELECTED_TEXT}\"\t# $12",
+			"$0"
+		],
+		"description": "Compose sequence of length 8"
+	},
+	"<Multi> <Multi> <1> ... <9> \"bar\" : # baz": {
+		"prefix": "mm9",
+		"body": [
+			"<Multi_key> <Multi_key> <${1:$TM_SELECTED_TEXT}> <${2:$TM_SELECTED_TEXT}> <${3:$TM_SELECTED_TEXT}> <${4:$TM_SELECTED_TEXT}> <${5:$TM_SELECTED_TEXT}> <${6:$TM_SELECTED_TEXT}> <${7:$TM_SELECTED_TEXT}> <${8:$TM_SELECTED_TEXT}> <${9:$TM_SELECTED_TEXT}> ${10: }: \"${11:$TM_SELECTED_TEXT}\"\t# $12",
+			"$0"
+		],
+		"description": "Compose sequence with 2 <Multi_key>s of length 8"
+	},
+}
